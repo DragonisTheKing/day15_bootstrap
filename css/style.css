@@ -1,0 +1,14 @@
+body {
+    padding-top: 35px;
+}
+
+.btn-primary {
+    border-color: rgb(87, 173, 184);
+    background-color: rgb(127, 251, 255);
+    color: blue;
+
+.btn-secondary {
+    color: rgb(2, 58, 2);
+    border-color: rgb(51, 31, 31);
+    background-color: rgb(255, 66, 98);
+}
