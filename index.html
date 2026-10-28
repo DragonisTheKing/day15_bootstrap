@@ -1,93 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
- 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Demo</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
- 
 <body>
     <main role="main">
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="#">Intro To Bootstrap</a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">A Page Dedicated Entirely To Our Glorious King Vihaan </a></li>
- 
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="class-dropdown"
-                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Classes</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Pre-Calculus</a>
-                            <a class="dropdown-item" href="#">Biology</a>
-                            <a class="dropdown-item" href="#">Web Design 1: From the Ground Up</a>
-                            <a class="dropdown-item" href="#">Remedial Pottery</a>
-                            <a class="dropdown-item" href="#">AP Lunch</a>
-                            <a class="dropdown-item" href="#">Introduction to Table-Maxxing</a>
-                            <a class="dropdown-item" href="#">God, Glory, and Absolute Betterness: Vihaan Duddupudi</a>
-                            <a class="dropdown-item" href="#">The Worst of the Worst: Neel Jayadevan</a>
-                            <a class="dropdown-item" href="#">Literature</a>
-                            <a class="dropdown-item" href="#">Beyond Existence and What We Know: Vihaan Duddupudi 2</a>
-
-                        </div>
-                    </li>
- 
-                </ul>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Intro To Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExampleDefault">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Home </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact </a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="http://example.com" id="class-dropdown"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Classes</a>
+                            <div class="dropdown-menu" aria-labelledby="class-dropdown">
+                                <a class="dropdown-item" href="#">Pre-Calculus</a>
+                                <a class="dropdown-item" href="#">Biology</a>
+                                <a class="dropdown-item" href="#">Web Design 1: From the Ground Up</a>
+                                <a class="dropdown-item" href="#">Remedial Pottery</a>
+                                <a class="dropdown-item" href="#">AP Lunch</a>
+                                <a class="dropdown-item" href="#">God, Glory, & Absolute Betterness: Vihaan Duddupudi</a>
+                                <a class="dropdown-item" href="#">Introduction to Table-Maxxing</a>
+                                <a class="dropdown-item" href="#">The Worst of the Worst: Neel Jayadevan</a>
+                                <a class="dropdown-item" href="#">Beyond Existence and What We Know: Vihaan Duddupudi 2</a>
+                                <a class="dropdown-item" href="#">Advanced Study of Windows, Palm Trees, and Red Backpacks</a>
+                                <a class="dropdown-item" href="#">Literature</a>
+                                <a class="dropdown-item" href="#">Yes. Vihaan Duddupudi 3</a>
+                                <a class="dropdown-item" href="#">Pre-Pre-Calculus</a>
+                                <a class="dropdown-item" href="#">The Absolute Botton of the World: Neel Jayadevan 2</a>
+                                <a class="dropdown-item" href="#">Web Design 2: Up Ground the From</a>
+                                <a class="dropdown-item" href="#">Gambling Responsily: Always Betting on Red</a>
+                                <a class="dropdown-item" href="#">Shaunak and his North Face Jacket</a>
+                                <a class="dropdown-item" href="#">Yes, Yas, Slay and Queen: Vihaan Duddupudi 4</a>
+                                <a class="dropdown-item" href="#">Tears are Running Down My Cheeks Because of How Perfect, Divine, and Pristine He is: Advanced Vihaan Duddupudi</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="container">
-            <div class="jumbotron">
-                <h1>This is Bootstrap</h1>
-                <p>Bootstrap is HTML, CSS, and JavaScript framework. It makes web design easy.</p>
+            
+            <div class="p-5 mb-4 bg-light rounded-3">
+                <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="images/newyork.jpg" alt="My Previous City" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>My Previous City</h3>
+                    <p>City, apartment & school</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                    <h3>My Previous Apartment</h3>
+                    <p>Had for 8 years</p>
+                <img src="images/apartment.webp" alt="My Previous Apartment" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                <img src="images/avenuess.webp" alt="My Previous School" class="d-block w-100">
+                </div>
+            </div>
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            </div>
+                <h1>This is bootstrap</h1>
+                <p>Bootstrap is an HTML, CSS, and Javascript Framework. It makes
+                    web design easy.
+                </p>
                 <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more about Bootstrap</a></p>
             </div>
             <div class="row">
                 <div class="col-md-4">
                     <h2>Bootstrap is for HTML</h2>
                     <p>HTML</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">HTML stands for Vihaan</a></p>
+                    <p><a class="btn btn-secondary" href="#">More on HTML</a></p>
                 </div>
                 <div class="col-md-4">
                     <h2>Bootstrap is for CSS</h2>
                     <p>CSS</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">CSS also stands for Vihaan</a></p>
+                    <p><a class="btn btn-secondary" href="#">More on CSS</a></p>
                 </div>
-                <div class="col-md-4">
+                    <div class="col-md-4">
                     <h2>Bootstrap is for JS</h2>
-                    <p>JavaScript</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">JS stands for JavaScript.... And Vihaan</a></p>
+                    <p>JS</p>
+                    <p><a class="btn btn-secondary" href="#">More on JS</a></p>
                 </div>
             </div>
+            <a class="btn btn-success">success</a>
+            <a class="btn btn-danger">danger</a>
+            <a class="btn btn-outline-primary">outline</a>
+            <a class="btn btn-warning btn-sm">small</a>
+            <a class="btn btn-success">success</a>
+            <div class="alert alert-success">alert-success</div>
+            <span class="badge bg-danger">badge</span>
         </div>
         <hr>
         <footer>
-            <p>&copy; Web Design 2026.</p>
+            <p>&copy; Web Design 2026</p>
         </footer>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
+  
 </body>
- 
 </html>
